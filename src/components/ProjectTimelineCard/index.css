@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.project-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 100px;
+  width: 150px;
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.duration-calender {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.calender-para {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.project-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.link {
+  color: #0967d2;
+  font-family: 'Roboto';
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 180px;
+    width: 300px;
+  }
+  .duration-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

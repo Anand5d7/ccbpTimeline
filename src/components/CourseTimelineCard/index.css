@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+.course-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 600;
+  margin: 0px;
+}
+.duration-time-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+
+.duration-time {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.course-para {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+.tags-list {
+  list-style-type: none;
+}
+.list-item {
+  background-color: #cbd5e1;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 3px;
+  line-height: 1;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .duration-time-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
